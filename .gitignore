@@ -12,6 +12,7 @@ __pycache__/
 *.pyc
 db.sqlite3
 media
+*.sqlite3
 
 # Development environment related
 .env
@@ -30,3 +31,7 @@ ENV/
 # OS related
 .DS_Store
 Thumbs.db
+
+# Temporary files
+temp/
+uploads/
